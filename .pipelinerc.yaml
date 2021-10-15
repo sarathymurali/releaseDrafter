@@ -1,0 +1,23 @@
+version: 0.1.180
+name: hello-world-npm-library
+branch: master
+type: library
+templates:
+  - editorconfig
+  - docker
+  - jenkins
+  - sonarqube
+language: js
+languageVersion: 14
+hasInstall: true
+hasBuild: false
+entrypoint: npm
+installCommand: ci
+testCommand: test
+srcPaths: src
+hasCoverage: true
+coveragePaths: coverage/lcov.info
+spamSlack: '#team-need4speed-auto'
+configs: {}
+secrets: {}
+hasTest: true

@@ -1,0 +1,32 @@
+{
+  "name": "@appdirect/hello-world-npm-library",
+  "version": "0.0.0",
+  "description": "AppDirect Example NPM Library",
+  "main": "src/example.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "lint": "eslint 'src' --ext .js --config .eslintrc.json",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest",
+    "test:watch": "npm run unit -- --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppDirect/hello-world-npm-library.git"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "AppDirect",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/AppDirect/hello-world-npm-library/issues"
+  },
+  "homepage": "https://github.com/AppDirect/hello-world-npm-library#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "jest": "^24.9.0"
+  }
+}

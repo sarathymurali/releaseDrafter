@@ -1,0 +1,17 @@
+{
+  "env": {
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "globals": {
+  },
+  "plugins": [],
+  "rules": {
+    "indent": ["error", 2]
+  }
+}
